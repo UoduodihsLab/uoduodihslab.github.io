@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'zpix';
+    src: url('./zpix.ttf')
+}
+
+@font-face {
+    font-family: 'unifont';
+    src: url('./unifont-16.0.04.otf')
+}
+
+html,body{
+    font-family: 'zpix', 'unifont', cursive;
+    background-color: #0f0a0a;
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    margin-top: 15%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.hello {
+    line-height: 1.2em;
+}
+
+/* a {
+    color: #fd79a8;
+} */
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
