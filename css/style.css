@@ -9,7 +9,8 @@
 }
 
 html,body{
-    font-family: 'zpix', 'unifont', cursive;
+    /* font-family: 'zpix', 'unifont', cursive; */
+    font-family: 'unifont', 'zpix', cursive;
     background-color: #0f0a0a;
     height: 100%;
     margin: 0;
@@ -34,5 +35,9 @@ main {
 .icon {
     width: 32px;
     height: 32px;
+}
+
+.contact a {
+    color: #ffffff;
 }
 
